@@ -4,4 +4,4 @@ This folder aims to store my totorial of any programming language or tools I wan
 
 The menu of this tutorial is below:
 
-- shell
+- shell : This shell tutorial is supported by website [Shell Scripting Tutorial](https://www.shellscript.sh/).
