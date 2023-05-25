@@ -1,6 +1,13 @@
-let message: string = 'Hello, World!';
-// create a new heading 1 element
-let heading = document.createElement('h1');
-heading.textContent = message;
-// add the heading the document
-document.body.appendChild(heading);
+class MyParameters<T> {
+    parameter: T[]
+    constructor(){
+        this.parameter = []
+    }
+    addParameter(parameter: T){
+        this.parameter.push(parameter)
+    }
+    getParameter = () => this.parameter
+}
+const myParam = new MyParameters<string>()
+myParam.addParameter("abc")
+console.log(myParam.getParameter())
